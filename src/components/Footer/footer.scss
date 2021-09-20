@@ -1,0 +1,83 @@
+.social-icons-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-icon {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer p{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color:white;
+}
+.footer a{
+  color: aliceblue;
+}
+.footer img {
+  width: 70%;
+}
+.footer_info{
+  padding: 20px 0;
+  background-color: rgb(32, 32, 32);
+}
+.Register_a{
+  padding: 70px 0;
+  background-color: #121930;
+}
+.Register_a a{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 570px) {
+  .Register_a a{
+    margin-left: 0;
+    margin-right:0;
+  }
+  .Volunteer{
+    margin-top: 15px;
+  }
+  .social-icon {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.privacy-policy p {
+  font-size: 2vh;
+  font-weight: 300;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.template{
+  position: fixed;
+  top: 97.3vh;
+  background-color: rgb(196, 230, 227);
+  text-align: center;
+  width: 100%;
+  padding-top: 2px;
+}
+.template p{
+  margin: 0 auto;
+  color: rgb(20, 6, 100);
+}
+.fa-times{
+position: absolute;
+right: 10px;
+top: 5px;
+}
