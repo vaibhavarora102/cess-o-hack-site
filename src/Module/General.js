@@ -56,7 +56,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is CESS-O-HACK?",
   LONG_DESCRIPTION:
-    "CESS-O-Hack  is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "CESS-O-Hack  is 24 hour long running hackathon will be held on October 2nd & 3rd , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: false,
   LOGO: ""
 };

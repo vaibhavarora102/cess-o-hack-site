@@ -43,19 +43,19 @@ export default function NAVBAR() {
             </NavLink>
           </div>
           <div className="nav__right" id="menu">
-            <a href="">
-              <span className="links">About us </span>{" "}
+            <a href="#about">
+              <span className="links">About us</span>{" "}
             </a>
             <a href="#FAQ">
               <span className="links">FAQ </span>{" "}
             </a>
-            <a href="">
-              <span className="links">Prices </span>{" "}
+            <a href="#prizes">
+              <span className="links">Prizes </span>{" "}
             </a>
-            <a href="">
+            <a href="#">
               <span className="links">Tracks</span>{" "}
             </a>
-            <a href="">
+            <a href="#sponsors">
               <span className="links">Sponsors </span>{" "}
             </a>
           </div>

@@ -127,14 +127,14 @@ export default function HomePage(props) {
         <Birds style={{top: "120vh", left: "0vh"}} type="" />
 
         {/* ********Prizes here ***** */}
-        <Row className="prizesection">
+        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
 
         {/* ********Sponsors here ***** */}
 
-        <Row className="sponsorSection">
+        <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
