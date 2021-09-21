@@ -29,15 +29,15 @@ import zoha from "./Assets/teami/zoha.png";
  * or you can provide a cloud link in src also
  */
 
-import boy from "./Assets/boy.png";
+import cess from "./Assets/cess.png";
 
 const TOP_SECTION = {
-  subTitle: "Cess-o-hack",
-  TITLE: "Join Hackathon 3.O",
+  subTitle: "Hackathon 3.0",
+  TITLE: "Join CESS-O-HACK",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 2nd October 2021 with over 500+ students from across the nation for 24 hours of creation, innovation, & fun.",
-  IMG_SRC: boy,
+  IMG_SRC: cess,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
@@ -54,10 +54,10 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is Limbo hacks?",
+  TITLE: "What is CESS-O-HACK?",
   LONG_DESCRIPTION:
-    "Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
-  LOGO_EFFECT: true,
+    "CESS-O-Hack  is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+  LOGO_EFFECT: false,
   LOGO: ""
 };
 
@@ -220,43 +220,53 @@ const frequentlyAskedQuestions = [
       {
         label: "What is a hackathon?",
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          "A hackathon is a 24 hour event where tech enthusiast collaborate on creating a functioning software and hardware application based on there innovative idea by the end of the event."
+      },
+      {
+        label: "What will be the mode of hackathon?",
+        content:
+          "CESS-O-HACK will be an offline mode Hackathon, You need to visit campus permises of Guru Nanak Dev University, Amritsar"
       },
       {
         label: "Who can attend?",
         content:
-          "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
+          "CESS-O-HACK is open to all undergraduate students from all universities and institutes. You need to visit Guru Nanak Dev University, Amritsar campus during hackathon period to build project "
       },
       {
         label: "I am a first time hacker, what should I do?",
         content:
-          "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+          "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. Mentors would be available to guide you during hackathon period"
       },
       {
         label: "How team formation works?",
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form team with 4 members in it at maximum, and atleat 2 members in team. "
       }
     ],
     [
       {
         label: "How to register myself in the hackathon?",
         content:
-          "All you need is to fill our form above and join Discord, we will guide you through everything there"
+          "All you need is to fill our form above. Further you will be notified on your registered mail and contact number(if required)"
       },
       {
         label: "I have more questions?",
         content:
-          "Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you."
+          "Reach us directly at (cess.gndu@gmail.com or aroravaibhav102@gmail.com) and contact at 9888152758. we would happy to help you."
       },
-      {
-        label: "Can i volunteer?",
-        content:
-          "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
-      },
+
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing Limbo Hacks swag!."
+        content: "Yes! it would based your project and judging criteria."
+      },
+
+      {
+        label: "What is the last date for registration?",
+        content: "You can register till 1st of Oct,2021 before 5 p.m"
+      },
+      {
+        label: "Registration fee for hackathon?",
+        content: "Registration fees for each team is Rs: 400"
       }
     ]
   ]

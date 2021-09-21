@@ -30,12 +30,12 @@ h1 {
   width: 100%;
   position: relative;
   transition: 0.3s;
-  top:0px;
+  top: 0px;
   transition: top 0.2s linear;
 }
 .d-image img:hover {
-opacity: 0.9;
-top: 10px;
+  opacity: 0.9;
+  top: 10px;
 }
 .logoSection {
   text-align: center;
@@ -66,8 +66,6 @@ top: 10px;
   padding: 17vh 18vh 0 18vh;
   margin-top: -16vh;
 }
-
-
 
 @media (max-width: 570px) {
   .mediaInfo {

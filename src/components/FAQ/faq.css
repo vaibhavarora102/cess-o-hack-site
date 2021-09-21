@@ -7,7 +7,7 @@
 .panel {
   background-color: #c8ccf4;
   border-radius: 12px;
-margin-top: 10px;
+  margin-top: 10px;
 }
 .panel__label {
   display: block;
@@ -64,4 +64,10 @@ margin-top: 10px;
 }
 .panel:not(:last-child) {
   margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .panel__label {
+    font-size: 1.5rem;
+  }
 }

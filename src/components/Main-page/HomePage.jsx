@@ -13,7 +13,7 @@ import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import {Member, JoinTeam} from "../team/team.jsx";
-import pattern from "./pattern4.png";
+import pattern from "./pattern4.jpeg";
 import Media from "../media/media.jsx";
 
 import {
@@ -83,7 +83,12 @@ function FrequentlyAsked(props) {
 
 export default function HomePage(props) {
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div
+      className="Whole_div"
+      style={{
+        backgroundImage: `url(${pattern})`
+      }}
+    >
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
@@ -124,21 +129,6 @@ export default function HomePage(props) {
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
-        {/* ********Prizes ending here ***** */}
-
-        <Row className="prizesection non-coding">
-          <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
-        </Row>
-
-        {/* ********Sponsors here ***** */}
-
-        <Row className="sponsorSection">
-          <SponsorsHead />
-          <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
-        </Row>
-        {/* ********Sponsors ending here ***** */}
 
         <Birds top="120vh" left="0vh" type="" />
 
