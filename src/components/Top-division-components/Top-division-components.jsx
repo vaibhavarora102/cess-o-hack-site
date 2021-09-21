@@ -19,6 +19,9 @@ function Btn(props) {
 function About() {
   return (
     <div className="AboutMe">
+      <p style={{fontSize: "5rem", marginBottom: "-3rem"}}>
+        {TOP_SECTION.subTitle}
+      </p>
       <h2>{TOP_SECTION.TITLE}</h2>
       <MytypedComponent />
     </div>

@@ -31,28 +31,33 @@ export default function NAVBAR() {
       <div>
         <nav style={{backgroundColor: "#121930"}}>
           <div className="nav__left">
-            <img src={Logo} alt="" />
-            <h1>Hackathon 3.O</h1>
+            <NavLink
+              to=""
+              style={{
+                display: "flex",
+                alignItems: "center"
+              }}
+            >
+              <img src={Logo} alt="" />
+              <h2 className="Title">Hackathon 3.O</h2>
+            </NavLink>
           </div>
           <div className="nav__right" id="menu">
-            <NavLink to="/contact">
-              <span className="links">Home</span>{" "}
-            </NavLink>
-            <NavLink to="/contact">
+            <a href="#FAQ">
               <span className="links">About us </span>{" "}
-            </NavLink>
-            <NavLink to="/contact">
-              <span className="links">Tracks</span>{" "}
-            </NavLink>
-            <NavLink to="/contact">
-              <span className="links">Prices </span>{" "}
-            </NavLink>
-            <NavLink to="/contact">
-              <span className="links">Sponsors </span>{" "}
-            </NavLink>
-            <NavLink to="/contact">
+            </a>
+            <a href="">
               <span className="links">FAQ </span>{" "}
-            </NavLink>
+            </a>
+            <a href="">
+              <span className="links">Prices </span>{" "}
+            </a>
+            <a href="">
+              <span className="links">Tracks</span>{" "}
+            </a>
+            <a href="">
+              <span className="links">Sponsors </span>{" "}
+            </a>
           </div>
           <div className="menu__icon">
             <MenuIcon

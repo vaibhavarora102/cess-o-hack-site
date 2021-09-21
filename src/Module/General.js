@@ -32,6 +32,7 @@ import zoha from "./Assets/teami/zoha.png";
 import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
+  subTitle: "Cess-o-hack",
   TITLE: "Join Hackathon 3.O",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
