@@ -32,10 +32,10 @@ import zoha from "./Assets/teami/zoha.png";
 import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
+  TITLE: "Join Hackathon 3.O",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 2nd October 2021 with over 500+ students from across the nation for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
@@ -46,10 +46,8 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.com/invite/8XJSzmtWPp",
   linkedin: "https://www.linkedin.com/company/limbo-hacks/",
   twitter: "https://twitter.com/HacksLimbo",
-  devpost: "https://limbo-hacks-12968.devpost.com/",
   email: "mailto:hello@limbohacks.tech",
   mail: "hello@limbohacks.tech"
 };
@@ -195,8 +193,8 @@ const TeamInfo = [
       github: "",
       linkedin: "",
       img: zoha
-    },    
-  ] 
+    }
+  ]
 ];
 
 /** Instructions
@@ -215,48 +213,52 @@ const sponsorLogos = [
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
  */
-const frequentlyAskedQuestions  = [
+const frequentlyAskedQuestions = [
   [
     [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
+          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+      },
       {
         label: "Who can attend?",
-        content: "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
+        content:
+          "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
       },
       {
         label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+        content:
+          "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
       },
       {
         label: "How team formation works?",
-        content: "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+        content:
+          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
       }
     ],
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form above and join Discord, we will guide you through everything there"
+        content:
+          "All you need is to fill our form above and join Discord, we will guide you through everything there"
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you."
-      }
-      ,
+        content:
+          "Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you."
+      },
       {
         label: "Can i volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
-      }
-      ,
+        content:
+          "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+      },
       {
         label: "Will there be swag?",
         content: "Yes! Participants will recieveing Limbo Hacks swag!."
       }
     ]
-  ],
-
+  ]
 ];
 
 export {
