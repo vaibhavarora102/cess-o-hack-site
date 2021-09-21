@@ -43,10 +43,10 @@ export default function NAVBAR() {
             </NavLink>
           </div>
           <div className="nav__right" id="menu">
-            <a href="#FAQ">
+            <a href="">
               <span className="links">About us </span>{" "}
             </a>
-            <a href="">
+            <a href="#FAQ">
               <span className="links">FAQ </span>{" "}
             </a>
             <a href="">

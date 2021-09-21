@@ -124,13 +124,22 @@ export default function HomePage(props) {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
 
+        <Birds style={{top: "120vh", left: "0vh"}} type="" />
+
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
 
-        <Birds style={{marginTop: "220vh", left: "0vh"}} type="" />
+        {/* ********Sponsors here ***** */}
+
+        <Row className="sponsorSection">
+          <SponsorsHead />
+          <SponsorUS />
+          {sponsorLogos.map(SponsorGroup)}
+        </Row>
+        {/* ********Sponsors ending here ***** */}
 
         {/* ********Team here ***** */}
         <h1>Our Team</h1>
