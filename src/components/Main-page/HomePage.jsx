@@ -130,7 +130,7 @@ export default function HomePage(props) {
           {Prizeinfo.map(PrizeGroup)}
         </Row>
 
-        <Birds top="120vh" left="0vh" type="" />
+        <Birds style={{marginTop: "220vh", left: "0vh"}} type="" />
 
         {/* ********Team here ***** */}
         <h1>Our Team</h1>

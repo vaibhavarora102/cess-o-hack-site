@@ -3,11 +3,7 @@ import "./birds.scss";
 
 export default function Waves(props) {
   return (
-    <div
-      className="container"
-      className={props.type}
-      style={{top: props.top, left: props.left}}
-    >
+    <div className="container" className={props.type} style={props.style}>
       <div className="bird-container bird-container--one">
         <div className="bird bird--one"></div>
       </div>
