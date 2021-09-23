@@ -12,7 +12,7 @@ import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
-import {Member, JoinTeam} from "../team/team.jsx";
+import {Member} from "../team/team.jsx";
 import pattern from "./pattern4.jpeg";
 import Media from "../media/media.jsx";
 
@@ -20,9 +20,7 @@ import {
   TOP_SECTION,
   TeamInfo,
   sponsorLogos,
-  frequentlyAskedQuestions,
-  FOOTER,
-  panels
+  frequentlyAskedQuestions
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -124,7 +122,10 @@ export default function HomePage(props) {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
 
-        <Birds style={{top: "120vh", left: "0vh"}} type="" />
+        <Birds
+          style={{position: "absolute", top: "145vh", left: "0vh"}}
+          type=""
+        />
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
@@ -143,7 +144,6 @@ export default function HomePage(props) {
 
         {/* ********Team here ***** */}
         <h1>Our Team</h1>
-        {FOOTER.JOIN_TEAM.required && <JoinTeam />}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
