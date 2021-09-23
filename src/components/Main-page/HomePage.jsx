@@ -122,7 +122,10 @@ export default function HomePage(props) {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
 
-        <Birds style={{top: "120vh", left: "0vh"}} type="" />
+        <Birds
+          style={{position: "absolute", top: "145vh", left: "0vh"}}
+          type=""
+        />
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
