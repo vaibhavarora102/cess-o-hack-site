@@ -1,6 +1,6 @@
 {
-  "homepage": "https://limbo-hacks.github.io/Hackathon-website-template/",
-  "name": "hackathon-website-template",
+  "homepage": "https://cess-o-hack.herokuapp.com/",
+  "name": "CESS-O-HACK",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
