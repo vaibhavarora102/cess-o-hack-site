@@ -14,10 +14,9 @@ import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
 function GithubTemplate(){
 
   return (
-  // <div class="template">
-  //       <a href="https://github.com/Limbo-Hacks/Hackathon-website-template">  <p> Get this template <i class="fab fa-github-alt"></i> in github <i class="fas fa-times"></i></p></a>
-  // </div>
-  <div></div>
+  <div class="template">
+        <a href="https://github.com/Limbo-Hacks/Hackathon-website-template">  <p> Get this template <i class="fab fa-github-alt"></i> in github <i class="fas fa-times"></i></p></a>
+  </div>
   )
 }
 
@@ -94,7 +93,7 @@ export default function Footer() {
 
           {FOOTER.Privacy_policy.required && (
             <a
-              href={"#PrivacyPolicy"}
+              href={PrivacyPolicy}
               download
               target="blank"
               className="privacy-policy"
@@ -104,7 +103,7 @@ export default function Footer() {
           )}
           {FOOTER.Terms_of_use.required && (
             <a
-              href={"#TermsOfUse"}
+              href={TermsOfUse}
               download
               target="blank"
               className="privacy-policy"

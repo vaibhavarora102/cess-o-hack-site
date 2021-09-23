@@ -40,17 +40,17 @@ const TOP_SECTION = {
   IMG_SRC: cess,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
-    "#",
+    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
-    "#"
+    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
 };
 
 const SOCIALS = {
-  instagram: "#",
-  linkedin: "#",
-  twitter: "#",
-  email: "mailto:cess.gndu@gmail.com",
-  mail: "cess.gndu@gmail.com"
+  instagram: "https://www.instagram.com/limbohacks/",
+  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
+  twitter: "https://twitter.com/HacksLimbo",
+  email: "mailto:hello@limbohacks.tech",
+  mail: "hello@limbohacks.tech"
 };
 
 const MIDDLE_SECTION = {
@@ -64,11 +64,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "#"
+    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
   },
   JOIN_TEAM: {
     required: true,
-    src: "#"
+    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
   },
   Privacy_policy: {
     required: true,
@@ -178,10 +178,10 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-//   [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-//   [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-//   [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-//   [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
+  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 /** Instructions
