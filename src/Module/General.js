@@ -38,19 +38,15 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION:
     "Join us on 2nd October 2021 with over 500+ students from across the nation for 24 hours of creation, innovation, & fun.",
   IMG_SRC: cess,
-  DISCORD_LINK: "",
-  JUDGES_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
-  HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+  HACKERS_REGISTRATION_FORM_LINK: ""
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/limbohacks/",
-  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
-  twitter: "https://twitter.com/HacksLimbo",
-  email: "mailto:hello@limbohacks.tech",
-  mail: "hello@limbohacks.tech"
+  instagram: "",
+  linkedin: "",
+  twitter: "",
+  email: "",
+  mail: ""
 };
 
 const MIDDLE_SECTION = {
@@ -64,11 +60,7 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
-  },
-  JOIN_TEAM: {
-    required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
+    src: "#"
   },
   Privacy_policy: {
     required: true,
@@ -178,10 +170,10 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  // [{src: cfc}, {src: sublime}, {src: echoAR}] //Array 1
+  // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 /** Instructions
